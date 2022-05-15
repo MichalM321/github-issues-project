@@ -1,0 +1,1 @@
+export const getComments = (state, issueGetedID) => state.commentsReducer.comments.filter((comment) => comment.issueId === issueGetedID);
